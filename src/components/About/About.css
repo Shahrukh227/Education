@@ -1,0 +1,62 @@
+.courseing{
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.box{
+  flex-basis: 40%;
+  position: relative;
+}
+
+
+.aboutImg{
+ /* width: 330px;
+ height: 230px; */
+ width: 100%;
+ height: auto;
+ border-radius: 10px;
+ margin-right: 20px;
+ 
+}
+
+.play{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  /* background-color: white; */
+  color:white;
+  border-radius: 70%;
+}
+
+.Ucontent{
+  flex-basis: 56%;
+  text-align: left;
+}
+
+.Ucontent h3{
+  text-transform: uppercase;
+  color: rgb(85, 65, 141,0.7);
+}
+
+.Ucontent h2{
+  font-size: 30px;
+  width: 300px;
+  line-height: 2.4rem;
+}
+
+@media (max-width:940px) {
+ .courseing{
+  flex-direction: column;
+ }
+
+ .box{
+  order: 2;
+ }
+}

@@ -1,0 +1,68 @@
+.campus{
+  width: 90%;
+  margin: 120px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery{
+  width: 20%;
+}
+
+.galleryimg{
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.campusbtn{
+  text-align: center;
+}
+
+.btn2{
+  padding: 15px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  background: rgb(85, 65, 141,0.7);
+}
+
+@media (max-width:990px) {
+  .galleryimg{
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media (max-width:700px) {
+ .campus{
+  flex-wrap: wrap;
+ }
+ .gallery{
+  width: 48%;
+ }
+.galleryimg{
+  width: 217px;
+  height: 149px;
+}
+}
+
+@media (max-width:550px) {
+  .campus{
+   flex-direction: column;
+   /* margin: auto; */
+   }
+   .gallery{
+    width: 30%;
+    margin-right: 80px;
+   }
+  .galleryimg{
+   width: 150px;
+   height: 100px;
+  }
+}
